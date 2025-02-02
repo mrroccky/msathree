@@ -1,0 +1,30 @@
+assignment 3
+create any clone application using div single page
+-------------------------------------------------
+internal css (inside html)
+	methodes of internal css 
+	
+	tagname method
+	class method
+structure of internal css
+	1 <html> <head> <style type="text/css"> create your attribute</style> </head></html>
+
+
+tag by name method
+	syntax   tagName
+		{
+			attribute:;
+		}
+---------------------------------------------------------------
+class name method
+	. is oprator   syntax   .className{
+					attribute:;
+					}
+
+drawback of internal css      1. not provide code sharing concept
+			      
+-------------------------------------------------------------------------
+external css
+extenxion of it is (.css)
+how to connect external css to html page
+using link tag   <link src="">

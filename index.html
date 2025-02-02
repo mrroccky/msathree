@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <marquee class="offer-text" behavior="alternate" direction="left">Offer on H<sub>2</sub>O &nbsp; &nbsp; Grab the
+            Deal now and save 10<sup>2</sup>-50 RS/Bottel and be the part of Green Revolution we use 100% recyclable
+            material</marquee>
+        <div class="top-gap"></div>
+        <h2 class="tital-text text-center">Hello, What Do You Want To Drink?</h2>
+        <div class="top-gap"></div>
+        <center>
+        <a class="tabs" href="mix-brand.html" target="_tab" > All brands</a>
+        <a class="tabs" href="nos.html" target="_tab" >NOS</a>
+        <a class="tabs" href="prime.html" target="_tab" > Prime</a>
+        <a class="tabs" href="pulse.html" target="_tab" > Pulse</a>
+        <a class="tabs" href="sting.html" target="_tab" > Sting</a>
+        </center>
+        <div class="top-gap"></div>
+
+      <iframe id="myIframe" name="_tab" src="mix-brand.html" frameborder="0" width="100%" scrolling="no"  ></iframe>
+    </div>
+
+    <div class="top-gap"></div>
+
+
+
+    <script>
+        function adjustIframeHeight() {
+            var iframe = document.getElementById('myIframe');
+            if (iframe.contentWindow.document.body) {
+                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+            }
+        }
+        document.getElementById('myIframe').onload = adjustIframeHeight;
+    </script>
+</body>
+
+</html>
